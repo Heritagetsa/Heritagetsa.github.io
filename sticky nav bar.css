@@ -11,7 +11,7 @@ body {
 
 header {
       width: 100%;
-      height: 500vh;
+      height: 10vh;
       background: url(orlando.jpg) no-repeat 50% 50%;
       background-size: cover;
 }
@@ -36,7 +36,7 @@ header {
 }
 
 nav {
-      position: fixed;
+      position: relative;
       width: 100%;
       line-height: 60px;
 }
@@ -99,7 +99,8 @@ nav ul li a {
       }
 
       .showing {
-            max-height: 34em;
+            max-he
+            ight: 34em;
       }
 
       nav ul li {

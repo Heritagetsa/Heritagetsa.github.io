@@ -16,11 +16,12 @@ body, html{
   background-attachment:fixed;
 }
 .pimg1{
-position: static;
-opacity: 0.70;
+position:static;
+opacity:0.70;
 background-position:center;
 background-size:cover;
 background-repeat:no-repeat;
+background-attachment:fixed;
   /*
     fixed = parallax
     scroll = normal

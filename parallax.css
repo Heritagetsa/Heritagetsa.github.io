@@ -7,18 +7,24 @@ body, html{
   line-height:1.8em;
   color:#666;
 }
-
-.pimg1, .pimg2, .pimg3, .pimg4, .pimg5, .pimg11{
+.pimg2, .pimg3, .pimg4, .pimg5, .pimg11{
   position:relative;
   opacity:0.70;
   background-position:center;
   background-size:cover;
   background-repeat:no-repeat;
-
+}
+.pimg1{
+position: fixed;
+opacity: 1;
+background-position:center;
+background-size:cover;
+background-repeat:no-repeat;
   /*
     fixed = parallax
     scroll = normal
   */
+}
   background-attachment:fixed;
 }
 

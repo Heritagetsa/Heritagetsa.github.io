@@ -22,10 +22,7 @@ background-position:center;
 background-size:cover;
 background-repeat:no-repeat;
 background-attachment:fixed;
-  /*
-    fixed = parallax
-    scroll = normal
-  */
+  
 }
   
 .pimg1{
@@ -94,7 +91,7 @@ background-attachment:fixed;
 }
 
 @media(max-width:568px){
-  .pimg1, .pimg2, .pimg3{
+   .pimg2, .pimg3{
     background-attachment:scroll;
   }
 }

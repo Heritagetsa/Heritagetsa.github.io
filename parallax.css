@@ -16,7 +16,7 @@ body, html{
   background-attachment:fixed;
 }
 .pimg1{
-position:sticky;
+position:initial;
 opacity:0.70;
 background-position:center;
 background-size:cover;
